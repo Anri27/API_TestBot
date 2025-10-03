@@ -13,7 +13,7 @@ def send_random_dog_image(message):
 
 
 #АПИ С ПОГОДОЙ
-WEATHER_TOKEN = "6303bc3cbf8954ea092271a924748948"
+WEATHER_TOKEN =os.getenv("WEATHER_TOKEN") 
 
 
 @bot.message_handler(commands=["start"])
