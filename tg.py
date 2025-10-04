@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-WEATHER_TOKEN =os.getenv("WEATHER_TOKEN") 
+BOT_TOKEN = os.getenv("BOT_TOKEN1")
+WEATHER_TOKEN =os.getenv("WEATHER_TOKEN1") 
 
 
 bot = telebot.TeleBot(BOT_TOKEN)
